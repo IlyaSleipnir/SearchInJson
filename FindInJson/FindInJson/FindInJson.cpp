@@ -13,18 +13,28 @@ int main(int argc, char* argv[])
     help_str += "\t-k -- ключ, по которому будет выполняться поиск\n";
     help_str += "\t-h -- вывод описания программы\n";
 
-    for (int i = 0; i < argc; i++)
+    for (int i = 1; i < argc; i++)
     {
-        if (argv[i] == "-k")
+        if (std::string(argv[i]) == "-k")
             key = argv[++i];
 
-        if (argv[i] == "-f")
+        if (std::string(argv[i]) == "-f")
             path = argv[++i];
 
-        if (argv[i] == "-h")
+        if (std::string(argv[i]) == "-h")
             std::cout << help_str << std::endl;
     }
 
-    JsonReader reader(path);
-    reader.find_in_json(key);
+    if (key != "" && path != "")
+    {
+        try
+        {
+            JsonReader reader(path);
+            reader.find_in_json(key);
+        }
+        catch (std::string error)
+        {
+            std::cout << error << std::endl;
+        }
+    }
 }
