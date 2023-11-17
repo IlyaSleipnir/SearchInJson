@@ -1,0 +1,7 @@
+G:\проекты\2GIS\C#\FindInJson\FindInJson\bin\Release\FindInJson.exe.config
+G:\проекты\2GIS\C#\FindInJson\FindInJson\bin\Release\FindInJson.exe
+G:\проекты\2GIS\C#\FindInJson\FindInJson\bin\Release\FindInJson.pdb
+G:\проекты\2GIS\C#\FindInJson\FindInJson\obj\Release\FindInJson.csproj.AssemblyReference.cache
+G:\проекты\2GIS\C#\FindInJson\FindInJson\obj\Release\FindInJson.csproj.CoreCompileInputs.cache
+G:\проекты\2GIS\C#\FindInJson\FindInJson\obj\Release\FindInJson.exe
+G:\проекты\2GIS\C#\FindInJson\FindInJson\obj\Release\FindInJson.pdb
